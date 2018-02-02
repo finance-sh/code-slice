@@ -1,0 +1,24 @@
+body {
+    font-family: 微软雅黑;
+    color: #666;
+}
+.du-filter{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.du-table {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.26rem;
+    width: 100%;
+}
+.du-table td{
+    text-align: center;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-bottom: 0.01rem #dedede solid;
+}
+.du-table thead td{
+    background-color: blanchedalmond;
+}
+

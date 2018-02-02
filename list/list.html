@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+  <title>新增文件</title>
+	<script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+	<script src="../adaptive/adaptive.js"></script>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="./orderList.css">
+	<script>
+		window['adaptive'].desinWidth = 640;
+		window['adaptive'].baseFont = 24;
+		window['adaptive'].scaleType = 1; // 1为默认值，可以不用设置
+		window['adaptive'].init();
+</script>
+</head>
+<body>
+  <div id="root">
+
+		<div class="du-filter">
+				<div class="form-item">
+						<label>编号:</label>
+						<input type="text" name="id" />
+					</div>
+		</div>
+		<table class="du-table">
+			<thead>
+					<tr>
+							<td>编号</td>
+							<td>微信昵称</td>
+							<td>尺寸</td>
+							<td>操作</td>
+					</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>gh003</td>
+					<td>zhenai</td>
+					<td>110</td>
+					<td><a href="">处理</a></td>
+				</tr>
+				<tr>
+						<td>gh003</td>
+						<td>zhenai</td>
+						<td>110</td>
+						<td><a href="">处理</a></td>
+					</tr>
+					<tr>
+							<td>gh003</td>
+							<td>zhenai</td>
+							<td>110</td>
+							<td><a href="">处理</a></td>
+						</tr>
+			</tbody>
+		</table>
+  </div>
+</body>
+</html>

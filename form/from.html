@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+    <title>form</title>
+	<script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+	<script src="../adaptive/adaptive.js"></script>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="./addOrder.css">
+	<script>
+		window['adaptive'].desinWidth = 640;
+		window['adaptive'].baseFont = 24;
+		window['adaptive'].scaleType = 1; // 1为默认值，可以不用设置
+		window['adaptive'].init();
+</script>
+</head>
+<body>
+  <div id="root">
+		<form enctype="multipart/form-data" id="myForm" >
+		<div class="form-item">
+			<label>编号:</label>
+			<input type="text" name="id" />
+		</div>
+		<div class="form-item">
+			<label>微信昵称:</label>
+			<input type="text" name="title" />
+		</div>
+		<div class="form-item"><label>尺寸:</label>
+			<input type="text" name="title" />
+		</div>
+		<div class="form-footer">
+			<input type="submit" value="提交" />
+			<input type="button" id="updata" value="修改" />
+	</div>
+	</form>
+  </div>
+</body>
+</html>

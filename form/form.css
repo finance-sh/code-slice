@@ -1,0 +1,16 @@
+.form-item {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.26rem
+}
+.form-item label{
+    display: inline-block;
+    width: 1.2rem;
+    text-align: right;
+}
+.form-item input{
+    width: 2.5rem;
+}
+.form-footer{
+    text-align: center;
+}
